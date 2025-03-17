@@ -2,12 +2,230 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Order Form</title>
+    <title>Two Ton's TShirts</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-<h1>Fire Apparel</h1>
+<div class="container-fluid text-center">
+    <h1>Two Ton's TShirts</h1>
+    <hr>
+    <form action="" method="post">
+        <h3>Order Form</h3>
+        <div class="form-group"><!--shirts-->
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <h4>Classic Shirts</h4>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Size:</label>
+                    <input type="radio" name="size1" value="sm">Small
+                    <input type="radio" name="size1" value="md">Medium
+                    <input type="radio" name="size1" value="lg">Large
+                    <input type="radio" name="size1" value="xl">Extra Large
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Color:</label>
+                    <select name="shirtColor">
+                        <option value="red">Red</option>
+                        <option value="navy">Navy Blue</option>
+                        <option value="black">Black</option>
+                        <option value="powder">Powder Blue</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Custom Back Text:</label>
+                    <input type="text" name="tshirttext" placeholder="If none leave blank">
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Cut Style:</label>
+                    <select name="shirtcut">
+                        <option value="mens">Men's</option>
+                        <option value="womens">Women's</option>
+                    </select>
+                </div>
+            </div>
+        </div>
 
+        <br>
+
+        <div class="form-group"><!--hoodies-->
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <h4>Classic Hoodies</h4>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Size:</label>
+                    <input type="radio" name="hoodiesize" value="sm">Small
+                    <input type="radio" name="hoodiesize" value="md">Medium
+                    <input type="radio" name="hoodiesize" value="lg">Large
+                    <input type="radio" name="hoodiesize" value="xl">Extra Large
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Color:</label>
+                    <select name="hoodieColor">
+                        <option value="red">Red</option>
+                        <option value="navy">Navy Blue</option>
+                        <option value="black">Black</option>
+                        <option value="powder">Powder Blue</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <lab>Custom Back Text:</lab>
+                    <input type="text" name="hoodietext" placeholder="If none leave blank">
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Style:</label>
+                    <select name="hoodiestyle">
+                        <option value="longsleeve">Long Sleeve</option>
+                        <option value="shortsleeve">Short Sleeve</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="form-group"><!--tees-->
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <h4>Classic Tees</h4>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Size:</label>
+                    <input type="radio" name="teesize" value="sm">Small
+                    <input type="radio" name="teesize" value="md">Medium
+                    <input type="radio" name="teesize" value="lg">Large
+                    <input type="radio" name="teesize" value="xl">Extra Large
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Color:</label>
+                    <select name="teecolor">
+                        <option value="red">Red</option>
+                        <option value="navy">Navy Blue</option>
+                        <option value="black">Black</option>
+                        <option value="powder">Powder Blue</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Custom Back Text:</label>
+                    <input type="text" name="teetext" placeholder="If none leave blank">
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Cut Style:</label>
+                    <select name="teecut">
+                        <option value="mens">Men's</option>
+                        <option value="womens">Women's</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="form-group"><!--athletic shirts-->
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <h4>Athletic Shirts</h4>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Size:</label>
+                    <input type="radio" name="athleticsize" value="sm">Small
+                    <input type="radio" name="athleticsize" value="md">Medium
+                    <input type="radio" name="athleticsize" value="lg">Large
+                    <input type="radio" name="athleticsize" value="xl">Extra Large
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Color:</label>
+                    <select name="athleticcolor">
+                        <option value="red">Red</option>
+                        <option value="navy">Navy Blue</option>
+                        <option value="black">Black</option>
+                        <option value="powder">Powder Blue</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <lab>Custom Back Text:</lab>
+                    <input type="text" name="athletictext" placeholder="If none leave blank">
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-3 border">
+                    <label>Style:</label>
+                    <select name="athleticstyle">
+                        <option value="longsleeve">Long Sleeve</option>
+                        <option value="shortsleeve">Short Sleeve</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <h4>Personal information</h4>
+        <div class="form-group">
+            <label>First Name:
+                <input type="text" name="firstname" value="" placeholder="First Name" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Last Name:
+                <input type="text" name="lastname" value="" placeholder="Last Name" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Email:
+                <input type="email" name="email" value="" placeholder="Email" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <label>Password:
+                <input type="password" name="password" value="" placeholder="Password" required>
+            </label>
+        </div>
+        <div class="form-group">
+            <input type="submit" name="submit">
+            <input type="reset" name="reset">
+        </div>
+    </form>
+    <br>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
